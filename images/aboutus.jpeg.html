@@ -1,0 +1,71 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.xhtml?ln=primefaces-sam" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&amp;v=6.1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/font-awesome.css.xhtml?ln=css" /><script type="text/javascript" src="/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/javax.faces.resource/core.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/javax.faces.resource/primefaces-extensions.js.xhtml?ln=primefaces-extensions&amp;v=6.1"></script><link type="text/css" rel="stylesheet" href="/javax.faces.resource/layout/layout.css.xhtml?ln=primefaces-extensions&amp;v=6.1" /><script type="text/javascript" src="/javax.faces.resource/layout/layout.js.xhtml?ln=primefaces-extensions&amp;v=6.1"></script><link type="text/css" rel="stylesheet" href="/javax.faces.resource/components.css.xhtml?ln=primefaces&amp;v=6.1" /><script type="text/javascript" src="/javax.faces.resource/components.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/javax.faces.resource/validation/validation.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en';PrimeFaces.settings.validateEmptyFields=false;PrimeFaces.settings.considerEmptyStringNull=false;}</script>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.jpg" />
+	<title>iSmartRecruit</title>
+	<style type="text/css">
+iframe::-webkit-scrollbar {
+	display: none;
+}
+
+.ui-layout-north {
+	z-index: 20 !important;
+	overflow: visible !important;
+}
+
+.ui-layout-south {
+	z-index: 50 !important;
+	overflow: visible !important;
+	background-color: #ff0000;
+}
+
+.ui-layout-north .ui-layout-unit-content {
+	overflow: visible !important;
+}
+
+#photoreel {
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+</style></head><body><script id="page_s" type="text/javascript">$(function(){PrimeFaces.cw("ExtLayout","widget_page",{id:"page",clientState:false,forTarget:"body",serverState:false,options:{"defaults":{"tips":{}},"center":{"spacing_open":6,"spacing_closed":6,"resizable":false,"size":"50%","tips":{}}}},true);});</script><div id="MainContent" class="ui-layout-center ui-widget-content ui-corner-all pe-layout-pane-content" data-combinedposition="center">
+			<div class="sidebar-no-animations">
+				
+				<div id="main-container">
+					<header id="header" class="navbar navbar-default navbar-fixed-top">
+						<div class="col-md-12">
+							
+
+
+
+							
+							
+						</div>
+						<div class="clearfix"></div>
+
+					</header>
+					<div class="clearfix"></div>
+<form id="errorFrm" name="errorFrm" method="post" action="/page/frwk/error.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="errorFrm" value="errorFrm" />
+
+
+						<div align="center"><div id="errorFrm:j_idt11" class="ui-panel ui-widget ui-widget-content ui-corner-all text-warning" data-widget="widget_errorFrm_j_idt11"><div id="errorFrm:j_idt11_content" class="ui-panel-content ui-widget-content">
+								<br />
+								<br />
+								<br />
+								<br />
+								<fieldset class="ui-fieldset ui-widget ui-widget-content ui-corner-all ">
+									<h1 style="color: black;">System Problem : Please re-login or contact system administrator.</h1>
+									<br /><button id="errorFrm:j_idt13" name="errorFrm:j_idt13" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-primary" onclick="PrimeFaces.bcn(this,event,[function(event){redirectToHome()},function(event){PrimeFaces.ab({s:&quot;errorFrm:j_idt13&quot;});return false;}]);" style="padding: 5px 10px; !important" type="submit"><span class="ui-button-text ui-c">Home</span></button><script id="errorFrm:j_idt13_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_errorFrm_j_idt13",{id:"errorFrm:j_idt13"});</script>
+								</fieldset><fieldset id="errorFrm:j_idt15" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container" data-widget="widget_errorFrm_j_idt15"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">Error Message :</legend><div class="ui-fieldset-content"><label id="errorFrm:j_idt16" class="ui-outputlabel ui-widget" style="color:black"></label></div></fieldset><script id="errorFrm:j_idt15_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_errorFrm_j_idt15",{id:"errorFrm:j_idt15"});</script></div></div><script id="errorFrm:j_idt11_s" type="text/javascript">PrimeFaces.cw("Panel","widget_errorFrm_j_idt11",{id:"errorFrm:j_idt11"});</script>
+						</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-5571532478177314313:-631020295810694465" autocomplete="off" />
+</form>
+				</div>
+			</div></div>
+	
+		<script type="text/javascript">
+			
+			function redirectToHome() {
+				
+				window.location.replace("/dashboard");
+			}
+		</script></body>
+</html>
